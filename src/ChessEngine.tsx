@@ -24,7 +24,7 @@ export default function ChessEngine() {
             return;
         }
 
-        const response = await fetch('http://localhost:80/best-move', {
+        const response = await fetch('http://localhost/api/best-move', {
             method: 'POST',
             headers: {
                 accept: 'application/json',
